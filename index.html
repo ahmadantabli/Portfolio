@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Typing link -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo"><img src="assets/mylogo.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ahmad <span class="highlight">Antabli</span></h1>
+            <h3>And I'm a <span class="home-text"></span></h3>
+
+            <div class="home-icons">
+                <!-- <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a> -->
+                <a href="www.linkedin.com/in/ahmad-antabli-46a7b7300"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/ahmadantabli"><i class='bx bxl-github'></i></a>
+
+            </div>
+        </div>
+
+        <div class="myphoto">
+            <img src="assets/myphoto.jpg" alt="myphoto">
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="about">
+            <div class="about-image">
+                <img src="assets/me.jpg" alt="myphoto">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <p>I’m Ahmad Antabli, a computer science student passionate about programming, web development, and
+                    technology.
+                    With experience in building websites and solving challenges creatively,
+                    I focus on delivering innovative and efficient solutions.
+                    I’m constantly learning and eager to contribute meaningfully to the tech world.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-header">
+            <h1>My <span>Skills</span></h1>
+        </div>
+
+        <div class="skills-main">
+
+            <div class="coding-skills">
+                <h2><span>Coding</span> Skills</h2>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>80%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>70%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Java Script</p>
+                        <p>60%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Java</p>
+                        <p>75%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="java"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Python</p>
+                        <p>70%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="py"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Word Press</p>
+                        <p>75%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="wp"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="soft-skills">
+                <h2><span>Soft</span> Skills</h2>
+                
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Communication</p>
+                        <p>85%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="communication"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Team Work</p>
+                        <p>75%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="teamwork"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Problem-Solving</p>
+                        <p>75%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="problemsolving"></span>
+                    </div>
+
+                </div>
+
+                <div class="info-bar">
+
+                    <div class="info">
+                        <p>Time Management</p>
+                        <p>70%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="timemanagement"></span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <form action="submit-form.php" method="post">
+          <div class="form-group name">
+            <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group email">
+            <input type="email" name="email" placeholder="Email address" required>
+          </div>
+          <div class="form-group subject">
+            <input type="text" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group message">
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </section>
+      
+
+    <script src="script.js"></script>
+</body>
+
+</html>
