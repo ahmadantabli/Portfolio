@@ -221,15 +221,17 @@ header {
     height: 100vh;
     padding-top: 60px;
 }
-
-#skills h1 {
+#skills span{
+    color: #0ef;
+}
+.skills-header h1 {
     font-size: 40px;
     opacity: 0;
     animation: slideDown 1s ease forwards;
     animation-delay: 0.3s;
 }
 
-#skills span {
+.skills-header span {
     color: #0ef;
 }
 
@@ -438,6 +440,94 @@ header {
 }
 
 
+/* Projects Section */
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    color: white;
+}
+.projects-header{
+    margin-bottom: 50px;
+}
+.projects-header h1 {
+    font-size: 40px;
+    opacity: 0;
+    animation: slideDown 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.projects-header span {
+    color: #0ef;
+}
+.projects-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: flex-start;
+    opacity: 0;
+}
+.left-project{
+    animation: slideRight 1s ease forwards;
+    animation-delay: 0.7s;
+}
+.middle-project{
+    animation: slideUp 1s ease forwards;
+    animation-delay: 0.7s;
+}
+.right-project{
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0.7s;
+}
+.project-image{
+    width: 320px;
+    height: 181px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.project-text{
+    margin-bottom: 20px;
+}
+.project-text h3{
+    font-size: 25px;
+}
+.project-text p{
+    font-size: 15px;
+}
+.project-text h4{
+    margin-top: 10px;
+    color: #0ef;
+}
+.project-button {
+    background-color: #0ef;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    background-color: #0ef;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+
+
 /* Contact Section */
 #contact {
     text-align: center;
@@ -539,7 +629,11 @@ textarea {
     box-shadow: 0 0 20px #0ef;
 }
 
-
+footer{
+    color: #0ef;
+    text-align: center;
+    border-top: solid 1px rgb(13, 27, 66);
+}
 
 
 
